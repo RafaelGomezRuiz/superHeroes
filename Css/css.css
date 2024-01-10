@@ -3,7 +3,6 @@
     display: flex;
 }
 
-
 p{
     color: blueviolet;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -11,12 +10,8 @@ p{
     size: 50px;
 }
 
-.main{
+main{
     background-color: black;
-}
-
-figure{
-    margin-top: 100px;
 }
 
 h1{
@@ -24,3 +19,5 @@ h1{
     color: red;
     text-align: center;
 }
+
+

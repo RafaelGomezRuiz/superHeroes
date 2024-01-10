@@ -1,0 +1,50 @@
+span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+#img1{ 
+    border: 10px;
+
+}
+.main-nav{
+    list-style: none;
+    padding-left: 0;
+    border: 5px solid black;
+}
+.main-nav__item{
+    display: inline-block;
+    
+    
+}
+.main-nav__item a{
+    border-radius: 5px;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.main-nav__item a:hover{
+    color: orange;
+}
+.main-nav__item a:active{
+    color: red;
+}
+
+.main-nav__item a::after{
+    content: " | ";
+}
+
+header{
+    background-color: gray;
+}
+
+body{
+    background-color:darkgray;
+}
+
+.main__img1{
+    border-radius: 10px;
+    border: 2px solid rebeccapurple;
+}

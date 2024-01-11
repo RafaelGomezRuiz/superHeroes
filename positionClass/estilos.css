@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: green;
+}
+header{
+    display: flex;
+    background-color: black;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+header h3{
+    text-align: center;
+    color: antiquewhite;
+}
+.contenedor{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    
+   
+}
+.boton{
+    height: 35px;
+    width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+#uno{
+    background-color: red;
+}
+.imagenes{
+    display: inline-flex;
+}
+.img{
+    height: 200px;
+    width: 170px;
+    border-radius: 5px;
+    
+}
+#img2{
+    position: relative;
+    left:-100px;
+    top: 8px;
+}
+#img3{
+    position: relative;
+    left:-170px;
+    top: 16px; 
+}
+main p{
+    position: relative;
+    top: -20px;
+    right: -130px;
+}
+.gif{
+    position: absolute;
+    right: 400px;
+    top: 200px;
+    height: 250px;
+    width: 300px;
+    background-color: red;
+}
+span{
+    position: absolute;
+    right: 470px;
+    top: 170px;
+    background-color: white;
+}
+
+
+
+/* .contenedor{
+    display: inline-block;
+    border: 2px black solid;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+
+.box {
+    display: inline-block;
+}
+
+figure{
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
+    
+}
+figure p{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#dos{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 85px;
+    left: 175px;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+}
+#dos p{
+    color: aquamarine; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor__imagen{
+    
+    position: relative;
+    left: 50px;
+    top: 50px;
+    height: 200px;
+    width: 200px;
+} */
+
+/* header{
+    background-color: red;
+    align-items: center;
+} */

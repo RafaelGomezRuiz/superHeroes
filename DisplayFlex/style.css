@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    
+}
+.contenedor{
+    display: flex;
+    border: 3px solid;
+    /* justify-content:space-around; */ /*separa los elementos a una misma distancia*/
+    /*justify-content: space-evenly;*/ /*divide el espacio para todos por igual*/
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+    flex-wrap: wrap;
+    /* align-items: stretch; */ /*toma el largo del contenedor*/
+    /* align-items: baseline; toma el tamano del contenido */
+}
+.box{
+    width: 100%;
+    min-width: 150px;
+    height: 10.5rem;
+     /* flex-basis: 5rem;  */
+    
+}
+.box1{
+    background-color: whitesmoke;
+    /* flex-grow: 1; */
+     /*toma el tama�o que se sobra al contenedor*/
+}
+.box2{
+    background-color: rebeccapurple;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: black;
+}
+.box5{
+    background-color: blue;
+}
+/*
+@media (min-width: 600px){
+    .box2,.box3,.box4{
+         flex-grow: 1; 
+        width: 50%;
+    }
+}
+*/
+
+/* @media(min-width:800px){
+    .contenedor{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box1{
+        width: 60%;
+    }
+    .box2{
+        width: 40%;
+    }
+    .box3,.box4{
+        width: 33%;
+    }
+    .box5{
+    width: 34%; 
+    }
+} */

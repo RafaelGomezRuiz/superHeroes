@@ -1,0 +1,4 @@
+.box2,.box3,.box4{
+    /* flex-grow: 1; */
+    width: 50%;
+}
